@@ -8,6 +8,7 @@ void Main()
 {
     int m = ReadInt("Введите m: ");
     int n = ReadInt("Введите n: ");
+    
     AckermannFunction(m, n);
     Console.WriteLine($"Результат вычисления функции Аккермана = " + AckermannFunction(m, n));
 }

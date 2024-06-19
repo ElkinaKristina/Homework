@@ -10,6 +10,7 @@ void Main()
 {
     int M = ReadInt("Введите значение M: ");
     int N = ReadInt("Введите значение N: ");
+
     Console.Write("Значения от M до N: ");
     PrintNumbersMN(M, N);
     PrintNumbersMN2(M, N);
